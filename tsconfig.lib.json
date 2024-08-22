@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        // generated code
+        "target": "ES2022",
+        "lib": ["ESNext", "DOM"],
+        "isolatedModules": true,
+        "module": "ESNext",
+        "jsx": "react-jsx",
+
+        // generated code output
+        "declaration": true,
+        "outDir": "lib",
+        "sourceMap": true,
+        
+        // imported code
+        "moduleDetection": "auto",
+        "moduleResolution": "Bundler",
+
+        // typechecking
+        "skipLibCheck": true,
+        "strict": true,
+
+        
+
+    },
+    "include": [
+        "src"
+    ]
+}

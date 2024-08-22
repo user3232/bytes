@@ -1,0 +1,45 @@
+{
+  "name": "@user3232/byte-size-cli",
+  "version": "1.0.1",
+  "description": "",
+  "keywords": ["CLI", "kB", "KiB"],
+  "author": "kolodziej.michal _at_ gmail.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+file:///home/mk/github/tutorials/byte-size-cli"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    }
+  },
+  "bin": {
+    "kilobytes": "./lib/cli.js"
+  },
+  "files": [
+    "lib",
+    "src",
+    "package.json",
+    "README"
+  ],
+  "dependencies": {
+    "@types/byte-size": "^8.1.2",
+    "@types/command-line-args": "^5.2.3",
+    "@types/command-line-usage": "^5.0.4",
+    "@types/node": "^22.5.0",
+    "byte-size": "^9.0.0",
+    "command-line-args": "^6.0.0",
+    "command-line-usage": "^7.0.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "test": "tsx --test test"
+  }
+}
