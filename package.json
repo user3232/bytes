@@ -14,7 +14,8 @@
     ".": {
       "types": "./lib/index.d.ts",
       "import": "./lib/index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "bin": {
     "bytes": "./lib/cli.js"
@@ -23,7 +24,7 @@
     "lib",
     "src",
     "package.json",
-    "README"
+    "README.md"
   ],
   "dependencies": {
     "@types/byte-size": "^8.1.2",
