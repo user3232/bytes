@@ -12,7 +12,8 @@ which it extends with TypeScript documentation and CLI tool.
 
 
 ``` sh
-npm i --save-dev @user3232/byte-size-cli@git+file:///home/mk/github/tutorials/byte-size-cli
+npm i --save-dev @user3232/byts@git+https://github.com/user3232/bytes.git#semver:latest
+npm i --save-dev @user3232/byts@user3232/bytes#semver:latest
 ```
 
 ## Use CLI
