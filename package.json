@@ -7,7 +7,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/user3232/bytes.git"
+    "url": "git+https://github.com/user3232/bytes"
   },
   "type": "module",
   "exports": {

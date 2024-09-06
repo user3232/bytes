@@ -1,4 +1,4 @@
-# @user3232/byte-size-cli
+# @user3232/bytes
 
 Format number with sizes, e.g. in kB's or KiB's
 or with simple (ranges) rules.
@@ -12,28 +12,29 @@ which it extends with TypeScript documentation and CLI tool.
 
 
 ``` sh
-npm i --save-dev @user3232/byts@git+https://github.com/user3232/bytes.git#semver:latest
-npm i --save-dev @user3232/byts@user3232/bytes#semver:latest
+npm i --save-dev user3232/bytes#semver:latest
+npm i --save-dev @user3232/bytes@user3232/bytes#semver:latest
+npm i --save-dev @user3232/bytes@git+https://github.com/user3232/bytes.git#semver:latest
 ```
 
 ## Use CLI
 
 ```sh
 # display help
-$ npx kilobytes 
-$ npx kilobytes --help
+$ npx bytes 
+$ npx bytes --help
 # formats number(s)
-$ npx kilobytes 0xffff 
+$ npx bytes 0xffff 
 64 KiB
-$ npx kilobytes 0xffff 65535
+$ npx bytes 0xffff 65535
 64 KiB
 64 KiB
 # formats number(s) in metric units
-$ npx kilobytes --units metric 0xffff 65535
+$ npx bytes --units metric 0xffff 65535
 65,5 kB
 65,5 kB
 # formats number(s) with precision and locales
-$ npx kilobytes --locale en --precision 3 --units metric 0xffff
+$ npx bytes --locale en --precision 3 --units metric 0xffff
 65.535 kB
 ```
 
